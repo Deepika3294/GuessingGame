@@ -1,4 +1,4 @@
-01#!/bin/bash
+#!/bin/bash
 pwd
 guessing()
 {
