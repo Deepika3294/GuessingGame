@@ -1,2 +1,2 @@
-# GuessingGame
-Guess the number of files
+THE NO. OF FILES IN guessingname.sh:
+31 guessingname.sh
