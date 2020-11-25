@@ -1,7 +1,7 @@
-# Guessing Game
+Guessing Game
 \r
-## This readme file was built on:
-Wednesday, November 25, 2020 02:57:18
+The readme was created on 
+Wednesday, November 25, 2020 13:16:51
 \r
-## Number of lines of code in file guessinggame.sh:
-31
+Number of lines of code in guessinggame.sh is 
+30
