@@ -1,14 +1,13 @@
-all: README.md
+all: README.md readme_content
 
-README.md: guessinggame.sh
-	echo "# Peer-graded Assignment: Bash, Make, Git, and GitHub" > README.md
-	echo "" >> README.md
-	echo -n "Number of code lines: " >> README.md
-	cat guessinggame.sh | wc -l >> README.md
-	echo "" >> README.md
-	echo -n "This README was generated the " >> README.md
-	date +%F >> README.md
-	echo "" >> README.md
-clean:
-	rm README.md
+README.md:
+touch README.md
 
+readme_content:
+echo "# Guessing Game" >> README.md
+echo "\r" >> README.md
+echo "## This readme file was built on:" >> README.md
+date +'%A, %B %d, %Y %T' >> README.md
+echo "\r" >> README.md
+echo "## Number of lines of code in file guessinggame.sh:" >> README.md
+cat guessinggame.sh | wc -l >> README.md
